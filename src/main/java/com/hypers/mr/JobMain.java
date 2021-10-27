@@ -16,8 +16,10 @@ public class JobMain extends Configured implements Tool {
     @Override
     public int run(String[] strings) throws Exception {
         //job 任务流程
+        String jobName = "wordcount";
+
         //1、创建一个JOB任务对象
-        Job job = Job.getInstance(super.getConf(), "wordcount");
+        Job job = Job.getInstance(super.getConf(), jobName);
 
         //2、配置job任务对象（八大步）
 

@@ -17,7 +17,7 @@ Mapper 对应的四个泛型解释
 
 public class WordCountMapper extends Mapper<LongWritable , Text , Text , LongWritable> {
     //map方法就是把 K1 V1 转化成 K2 V2
-    /*
+    /**
     参数：
         key     : K1  行偏移量
         value   : V1  每一行对应的文本数据

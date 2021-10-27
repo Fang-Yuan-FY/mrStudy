@@ -13,6 +13,13 @@ import org.apache.hadoop.util.ToolRunner;
 
 public class JobMain extends Configured implements Tool {
     //该方法用于指定一个job任务
+
+    /**
+     *
+     * @param strings
+     * @return
+     * @throws Exception
+     */
     @Override
     public int run(String[] strings) throws Exception {
         //job 任务流程

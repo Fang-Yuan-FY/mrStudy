@@ -14,6 +14,10 @@ Reducer 对应的四个泛型解释
     KEYOUT      : K3的类型
     VALUEOUT    : V3的类型
  */
+
+/**
+ *
+ */
 public class WordCountReduce extends Reducer<Text , LongWritable , Text , LongWritable> {
     //reduce 方法作用 ： 把新的K2 和 V2 转换成 K3 和 V3  将 K3 和 V３写入上下文中
     /*
