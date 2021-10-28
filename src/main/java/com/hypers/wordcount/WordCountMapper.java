@@ -23,7 +23,7 @@ public class WordCountMapper extends Mapper<LongWritable , Text , Text , LongWri
         value   : V1  每一行对应的文本数据
         context : 表示上下文内容
      */
-    /*
+    /**
     把K1 V1 转化成 K2 V2
         K1      V1
         0   hello， world , hadoop
