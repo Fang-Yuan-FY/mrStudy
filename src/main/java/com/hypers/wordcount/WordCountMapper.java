@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-/*
+/**
 Mapper 对应的四个泛型解释
     KEYIN       : K1的类型
     VALUEIN     : V1的类型
